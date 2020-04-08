@@ -19,7 +19,7 @@ def make_link(value):
 class ListingItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    link = scrapy.Field(input_processor=MapCompose(make_link))
+    link = scrapy.Field() #input_processor=MapCompose(make_link))
     name = scrapy.Field()
     price = scrapy.Field()
     address = scrapy.Field(input_processor=MapCompose(clean_text))
@@ -29,7 +29,9 @@ class ListingItem(scrapy.Item):
     area = scrapy.Field()
     bedrooms = scrapy.Field(output_processor=TakeFirst())
     bathrooms = scrapy.Field(output_processor=TakeFirst())
-    
+    description = scrapy.Field()
+    details = scrapy.Field()
+    amenities = scrapy.Field()
 
 
             # yield {
