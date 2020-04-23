@@ -1,5 +1,5 @@
-
 model/config.py
+model/cached_results/
 model/.ipynb_checkpoints/
 model/.ipynb_checkpoints/
 scrapy_venv/propertyguru/all_listings_*
@@ -7,3 +7,4 @@ scrapy_venv/propertyguru/
 scrapy_venv/Scripts/
 scrapy_venv/Lib/
 scrapy_venv/pyvenv.cfg
+model/data/config.py
