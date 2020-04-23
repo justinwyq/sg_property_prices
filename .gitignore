@@ -1,4 +1,9 @@
 
 model/config.py
-model/.ipynb_checkpoints/HDB Resale Price Analysis-checkpoint.ipynb
-model/.ipynb_checkpoints/HDB Resale Price Analysis-checkpoint.ipynb
+model/.ipynb_checkpoints/
+model/.ipynb_checkpoints/
+scrapy_venv/propertyguru/all_listings_*
+scrapy_venv/propertyguru/
+scrapy_venv/Scripts/
+scrapy_venv/Lib/
+scrapy_venv/pyvenv.cfg
